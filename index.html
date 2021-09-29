@@ -10,59 +10,56 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" type="text/css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" type="text/css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Claire Hardman::Full-Stack Developer</title>
 </head>
 
 <body id="home">
-    <!-- Heading -->
-
     <!-- Navbar-->
-    <nav class="navbar navbar-light navbar-expand-md sticky-top">
+    <nav class="navbar text-white navbar-expand-md">
         <a class="navbar-brand" id="navbar" href="#navbar">Claire Hardman</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon navbar-light"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarToggler">
+        <div class="collapse navbar-collapse text-white" id="navbarToggler">
             <ul class="navbar-nav nav-fill w-100">
-                <li class="nav-item mr-2"><a class="nav-link justify-content-end" href="#about">About</a></li>
-                <li class="nav-item mr-2"><a class="nav-link justify-content-end" href="#projects">Projects</a></li>
-                <li class="nav-item mr-2"><a class="nav-link justify-content-end" href="#experience">Experience</a></li>
-                <li class="nav-item mr-2"><a class="nav-link justify-content-end" href="#contact">Contact</a></li>
-                <button class="btn btn-outline-success justify-content-end" type="button">Resume</button>
+                <li class="nav-item mr-2"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#contact">Contact</a></li>
+                <button class="btn" type="button">Resume</button>
             </ul>
         </div>
     </nav>
     </header>
-    <!-- About -->
-    <div id="about" class="container-fluid about-container pt-5 border">
-        <div class="row">
-            <div class="col-12 col-lg-4 about-image">
+    <!-- Home container -->
+    <div id="home" class="container-fluid pb-3 about-container pt-5">
+        <div class="row pt-5">
+            <div class="col-12 col-md-12 col-lg-6">
                 <img src="./assets/images/about.jpg" alt="Portrait" class="responsive" />
             </div>
-            <div class="col about-heading border">
-                <h2>About</h2>
-                <div class="col">
-                    <div class="about-text border">
-                        <p>
-                            Dolores O'leary is a one of a kind. She has sailed around the world, lived in 17 countries and now dedicates her life
-                            to creating the most unforgettable experiences money can buy.
-                            Whatever your need Dolores has the means. From flare throwers to world class dj's, master whiskey blenders to award winning chefs, nothing
-                            is too much to ask at this catering service. Capino provides the scene and Dolores calls on her expertise and vast knowledge in the catering and entertainment indsutry.
-                            Aboard Capino dreams come true and Delores is there to make sure that happens. Welcome aboard Capino and be prepared for the time of your life.
-                        </p>
-                    </div>
-                </div>
+            <!-- Home text -->
+            <div class="col-12 col-md-12 col-lg-6 intro-text">
+                <p class="about-text">Hardman Photo is the home of Claire Hardman: Photographer and
+                    visual artist.
+                    Claire's background is in TV News and theatre amongst a host of other things. She focuses on the
+                    arts, documentary, portraits and anything that sounds like a challenging and exciting project.
+                    If you are looking for pictures that are one of a kind and breaking the mould then Claire
+                    Hardman is the thing for you. Claire is based in Stockholm and always loves to meet new people
+                    with new and inspiring ideas.
+                    For enquiries, love letters and hate mail just send it through to: contact@hardmanphoto.se
+                </p>
             </div>
         </div>
-        </section>
+    </div>
+    </div>
     </div>
     <!-- Projects -->
-    <div id="projects" class="container-fluid pt-5 project-container border">
+    <div id="projects" class="container-fluid pt-5 project-container">
         <div class="row">
-            <div class="col project-heading">
+            <div class="col project-heading text-center">
                 <h2>Projects</h2>
             </div>
         </div>
@@ -89,26 +86,96 @@
             </div>
         </div>
     </div>
+    <!-- About heading -->
+    <div id="about" class="container-fluid pt-5 ">
+        <div class="row">
+            <div class="col about-heading border">
+                <h2 class="text-center">About</h2>
+            </div>
+        </div>
+        <!-- Timeline -->
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-6 pl-5 pb-5">
+                <div class="history-items">
+                    <div class="timeline-item" data-dates="02/1998 - 04/2004">
+                        <h5>National College of Art and Design (NCAD) </h5>
+                        <p>Sculptor in residence</p>
+                    </div>
+                    <div class="timeline-item" data-dates="04/2004 - 06/2008">
+                        <h5>Fisher & Diaz Funeral Directors</h5>
+                        <p>Junior Embalmer</p>
+                    </div>
+                    <div class="timeline-item" data-dates="06/2008 - 06/2011">
+                        <h5>Phantom Design Inc. Dublin</h5>
+                        <p>Junior Front End Developer</p>
+                    </div>
+                    <div class="timeline-item" data-dates="06/2011 - Present">
+                        <h5>Hooli Inc. Silicon Valley</h5>
+                        <p>Full stack Web Developer</p>
+                    </div>
+                </div>
+            </div>
+            <!-- About text  -->
+            <div class="col-12 col-md-12 col-lg-6 intro-text">
+                <p class="about-text">Hardman Photo is the home of Claire Hardman: Photographer and
+                    visual artist.
+                    Claire's background is in TV News and theatre amongst a host of other things. She focuses on the
+                    arts, documentary, portraits and anything that sounds like a challenging and exciting project.
+                    If you are looking for pictures that are one of a kind and breaking the mould then Claire
+                    Hardman is the thing for you. Claire is based in Stockholm and always loves to meet new people
+                    with new and inspiring ideas.
+                    For enquiries, love letters and hate mail just send it through to: contact@hardmanphoto.se
+                </p>
+            </div>
+        </div>
+
+    </div>
     <!-- Footer -->
     <footer>
-        <div class="container-fluid pt-5 border">
+        <div class="container-fluid pt-5">
             <div class="row">
                 <div class="col-sm-4">
                     <h5>About</h5>
-                    <p>Full Stack Development graduate from Code Institute. Able in HTML, CSS, JS and Python</p>
+                    <p>Full-Stack Development graduate from Code Institute. Competent in HTML, CSS, JS, Python, Bootstrap, Jquery, Django, Flask, Mongo, AWS</p>
                 </div>
                 <div class="col-sm-4">
                     <h5>Resume</h5>
-                    <p>Download the pdf CV here
-                        <a href="#" target="_blank" class="cv-pdf">
+                    <p>Download the pdf CV here...
+                        <a href="#" target="_blank" class="cv-pdf fa-cv">
                             <i class="fas fa-angle-double-down" aria-hidden="true">
                             </i>
-                            <span class="sr-only">Download link.</span>
+                            <span class="sr-only">PDF CV Download link</span>
                         </a>
                     </p>
                 </div>
                 <div class="col-sm-4">
                     <h5>Social</h5>
+                    <ul class="list-inline fa-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://github.com/chardma3">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <span class="sr-only">Github</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item fa-links">
+                            <a target="_blank" href="https://www.linkedin.com/in/claire-hardman-862a558b/">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                <span class="sr-only">Linked In</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item fa-links">
+                            <a target="_blank" href="http://instagram.com/hardmanmusicofficial">
+                                <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item fa-links">
+                            <a target="_blank" href="http://instagram.com/hardmanmusicofficial">
+                                <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                                <span class="sr-only">Hardman Photo</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

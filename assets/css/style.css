@@ -7,6 +7,7 @@
     /*list-style: none;*/
     text-decoration: none;
     box-sizing: border-box;
+    background-color: black;
 }
 
 /*--------------------------------------------Heading*/
@@ -14,31 +15,134 @@ header {
     margin: 0;
 }
 
-
-
-
-
 .navbar-brand {
     font-size: 50px;
     padding: 0 0 0 5px;
     font-family: 'Bebas', sans-serif;
+    color: white;
 }
 
+.btn {
+    border: 2px solid #6700b7;
+    background-color: black;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #6700b7;
+    color: #6700b7;
+}
+
+.btn:hover {
+    background-color: #6700b7;
+    color: black;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+a#navbar.navbar-brand:hover {
+    color: #6700b7;
+}
+
+a.nav-link {
+    color: #6700b7;
+}
 
 /*--------------------------------------------Body*/
 img {
     width: 100%;
-    height: 450px;
+    height: 400px;
     object-fit: cover;
     overflow: hidden;
 }
 
+h1,
 h2,
+h3,
+h4,
 h5 {
     font-family: 'Bebas', sans-serif;
+    color: white;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
+    color: white;
+}
+
+.intro-text {
+    padding: 4rem;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: white;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: white;
+
+}
+
+/*--------------------------------------------Footer*/
+.fa-cv {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+    transition: all 0.15s ease-in-out;
+}
+
+.fa-cv:hover {
+    color: #6700b7;
+}
+
+.fa-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 9px;
+    text-align: center;
+    color: white;
+    background: gray;
+    transition: all 0.15s ease-in-out;
+}
+
+.fa-links li a i:hover {
+    background: #6700b7;
 }
