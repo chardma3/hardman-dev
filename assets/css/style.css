@@ -22,6 +22,14 @@ header {
     color: #bdb76b;
 }
 
+.custom-toggler.navbar-toggler {
+    border-color: #6700b7;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(103, 0, 183)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 .btn {
     border: 2px solid #6700b7;
     background-color: black;
@@ -83,8 +91,6 @@ p {
     max-width: 40%;
 }
 
-.about-text {}
-
 .timeline-item {
     padding: 4em 2em 0em 3em;
     position: relative;
@@ -122,6 +128,12 @@ p {
     background: #bdb76b;
 }
 
+.about-text {
+    padding-top: 80px;
+    max-width: 85%;
+
+}
+
 /*--------------------------------------------Footer*/
 .fa-cv {
     width: 40px;
@@ -155,10 +167,12 @@ p {
 
 /*--------------------------------------------Media Queries*/
 
-@media(min-width: 992px) {
+@media(max-width: 992px) {
     .about-text {
         padding-top: 50px;
-        max-width: 65%;
+        padding-left: 50px;
+
+        text-align: center;
     }
 }
 
