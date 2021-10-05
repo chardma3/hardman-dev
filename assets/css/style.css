@@ -86,6 +86,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     color: #bdb76b;
+    margin: 0;
 }
 
 .intro-text {
@@ -132,7 +133,6 @@ p {
 
 .about-text {
     max-width: 95%;
-
 }
 
 .thanks {
@@ -187,8 +187,8 @@ a:hover {
 
 @media(max-width: 992px) {
     .about-text {
-        padding-top: 50px;
-        padding-left: 50px;
+        padding: 50px 5px 0 5px;
+        margin: 0;
         text-align: center;
     }
 }
