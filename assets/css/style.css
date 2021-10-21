@@ -21,7 +21,7 @@ header {
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: #6700b7;
+    border-color: #cc00a3;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -29,19 +29,19 @@ header {
 }
 
 .btn {
-    border: 2px solid #6700b7;
+    border: 2px solid #cc00a3;
     background-color: black;
     color: black;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    border-color: #6700b7;
-    color: #6700b7;
+    border-color: #cc00a3;
+    color: #cc00a3;
 }
 
 .btn:hover {
-    background-color: #6700b7;
+    background-color: #cc00a3;
     color: black;
 }
 
@@ -50,11 +50,11 @@ a#navbar.navbar-brand {
 }
 
 a#navbar.navbar-brand:hover {
-    color: #6700b7;
+    color: #cc00a3;
 }
 
 a.nav-link {
-    color: #6700b7 !important;
+    color: #cc00a3 !important;
 }
 
 a.nav-link:hover {
@@ -79,7 +79,7 @@ h3,
 h4,
 h5 {
     font-family: 'Bebas', Courier, monospace;
-    color: #6700b7;
+    color: #cc00a3;
 }
 
 p {
@@ -163,7 +163,7 @@ a:hover {
 }
 
 .fa-cv:hover {
-    color: #6700b7;
+    color: #cc00a3;
 }
 
 .fa-links li a i {
@@ -180,7 +180,7 @@ a:hover {
 }
 
 .fa-links li a i:hover {
-    background: #6700b7;
+    background: #cc00a3;
 }
 
 /*--------------------------------------------Media Queries*/
