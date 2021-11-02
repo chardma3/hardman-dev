@@ -73,6 +73,16 @@ img {
     overflow: hidden;
 }
 
+.img-container {
+    width: 300px;
+    height: 300px;
+}
+.about-img {
+    width: 50%;
+    height: 100%;
+
+}
+
 h1,
 h2,
 h3,
