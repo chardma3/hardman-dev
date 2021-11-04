@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap";
 
 /*--------------------------------------------Global*/
 * {
@@ -74,13 +74,13 @@ img {
 }
 
 .img-container {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 .about-img {
     width: 50%;
     height: 100%;
-
+    border-radius: 50%;
 }
 
 h1,
