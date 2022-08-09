@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap";
-@import "https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Raleway:wght@400;900&display=swap";
+
 
 /*--------------------------------------------Global*/
 * {
@@ -81,7 +81,7 @@ img {
 }
 
 .about-img {
-    width: 60%; 
+    width: auto; 
     height: 100%;
 
 }
@@ -219,10 +219,5 @@ a:hover {
     }
 }
 
-@media(max-width: 992px) {
-    .about-img {
-    width: 80%; 
-    height: 100%;
-    }
-}
+
 
