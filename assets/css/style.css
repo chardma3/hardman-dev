@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Raleway:wght@400;900&display=swap";
 
 /*--------------------------------------------Global*/
 * {
@@ -16,7 +17,7 @@ header {
 .navbar-brand {
     font-size: 50px;
     padding: 0 0 0 5px;
-    font-family: 'Bebas', Courier, monospace;
+    font-family: 'Bebas Neue', Courier, monospace;
     color: #bdb76b;
 }
 
@@ -75,12 +76,14 @@ img {
 
 .img-container {
     width: 400px;
-    height: 400px;
+    height: 400px;   
+
 }
+
 .about-img {
-    width: 50%;
+    width: 60%; 
     height: 100%;
-    border-radius: 50%;
+
 }
 
 h1,
@@ -88,7 +91,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Bebas', Courier, monospace;
+    font-family: 'Bebas Neue', Courier, monospace;
     color: #9a00cc;
 }
 
@@ -215,3 +218,11 @@ a:hover {
         max-width: 90%
     }
 }
+
+@media(max-width: 992px) {
+    .about-img {
+    width: 80%; 
+    height: 100%;
+    }
+}
+
