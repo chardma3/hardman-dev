@@ -218,16 +218,18 @@ a:hover {
     }
 }
 
-/* When the browser is at least 419px and below */
-@media(min-width: 419px) {
+
+/* When the browser is at least 419px and above */
+@media(max-width: 419px) {
     .about-img {
         width: 50%; 
         height: 100%;
     }
 }
 
-/* When the browser is at least 371px and below */
-@media(min-width: 371px) {
+
+/* When the browser is at least 371px and above */
+@media(max-width: 371px) {
 .navbar-brand {
     font-size: 50px;
     padding: 0;
