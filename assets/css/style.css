@@ -83,7 +83,6 @@ img {
 .about-img {
     width: auto; 
     height: 100%;
-
 }
 
 h1,
@@ -197,7 +196,7 @@ a:hover {
 }
 
 /*--------------------------------------------Media Queries*/
-
+/* When the browser is at least 992px and above */
 @media(max-width: 992px) {
     .about-text {
         padding: 50px 5px 0 5px;
@@ -219,5 +218,22 @@ a:hover {
     }
 }
 
+/* When the browser is at least 419px and below */
+@media(min-width: 419px) {
+    .about-img {
+        width: 50%; 
+        height: 100%;
+    }
+}
+
+/* When the browser is at least 371px and below */
+@media(min-width: 371px) {
+.navbar-brand {
+    font-size: 50px;
+    padding: 0;
+    font-family: 'Bebas Neue', Courier, monospace;
+    color: #bdb76b;
+    }
+}
 
 
