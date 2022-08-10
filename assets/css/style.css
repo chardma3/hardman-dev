@@ -18,7 +18,6 @@ header {
     font-size: 50px;
     padding: 0 0 0 5px;
     font-family: 'Bebas Neue', Courier, monospace;
-    color: #bdb76b;
 }
 
 .custom-toggler.navbar-toggler {
@@ -222,8 +221,10 @@ a:hover {
 /* When the browser is at least 419px and above */
 @media(max-width: 419px) {
     .about-img {
-        width: 80%; 
+        width: 100%; 
         height: 100%;
+        object-fit: cover;
+        overflow: hidden;
     }
 }
 
@@ -234,7 +235,6 @@ a:hover {
     font-size: 30px;
     padding: 0;
     font-family: 'Bebas Neue', Courier, monospace;
-    color: #bdb76b;
     }
 }
 
