@@ -63,7 +63,7 @@ a.nav-link:hover {
 
 /*--------------------------------------------Body*/
 body {
-    background: black;
+   background: black;
 }
 
 img {
@@ -232,7 +232,7 @@ a:hover {
 /* When the browser is at least 371px and above */
 @media(max-width: 371px) {
 .navbar-brand {
-    font-size: 30px;
+    font-size: 40px;
     padding: 0;
     font-family: 'Bebas Neue', Courier, monospace;
     }
