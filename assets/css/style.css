@@ -84,6 +84,10 @@ img {
     height: 100%;
 }
 
+.project-img-top {
+    object-position: -70px;
+}
+
 h1,
 h2,
 h3,
@@ -103,6 +107,10 @@ p {
 .intro-text {
     padding: 5em 4em 0 4em;
     max-width: 40%;
+}
+
+.yellow {
+    color: #bdb76b;
 }
 
 .timeline-item {
@@ -237,8 +245,3 @@ a:hover {
         font-family: 'Bebas Neue', Courier, monospace;
         }
     }
-
-    @media(max-width: )
-    .img-container-row
-
-
